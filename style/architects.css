@@ -4,3 +4,74 @@
   font-family: "Work Sans", sans-serif;
   font-weight: 400;
 } 
+/* shard-style */
+.display-flex{
+  display: flex;
+}
+.dark-2{
+  color: #727272;
+}
+.bg-color{
+  background-color: rgba(255, 144, 14, 0.1);
+}
+/* font-16-lh-26-dark-3 */
+.f16-l26-d3{
+  font-size: 16px;
+  line-height: 26px;
+  color: #727272;
+}
+.btn-primary{
+  background-color: #FF900E;
+  color: #FFFFFF;
+  border-radius: 8px;
+  padding: 20px 25px;
+  font-size: 1.25rem;
+  font-weight: 600;
+
+}
+/* header-style */
+.navbar{
+  justify-content: space-between;
+  padding-top: 50px;
+  align-items: center;
+}
+.brand{
+  font-weight: 700;
+  font-size: 2.8rem;
+}
+.nav-item{
+  list-style-type: none;
+  margin-right: 20px;
+}
+.nav-link{
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 500;
+}
+.navbar, .banner{
+  max-width: 1440px;
+  margin: 0 auto;
+}
+.banner-container{
+  max-width: 860px;
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 50px;
+}
+.banner-title{
+  font-size: 4rem;
+  font-weight: 700;
+  margin-bottom: 43px;
+}
+.banner img{
+  width: 100%;
+}
+
+
+@media  screen and (max-width:576px) {
+  .display-flex{
+    flex-direction: column;
+  .nav-item{margin-bottom: 20px;}
+  }
+  
+}
