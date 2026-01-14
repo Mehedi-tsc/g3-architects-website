@@ -144,7 +144,7 @@ main>section{
     grid-template-columns: repeat(4, 1fr);
     gap: 100px;
     max-width: 1330px;
-    margin: 100px 170px 0px 170px;
+    margin: 100px auto 0px auto;
     justify-content: center;
     
     
@@ -168,6 +168,20 @@ main>section{
     font-size: 20px;
     font-weight: 600;
     color: #727272;
+  }
+  .sponser-text{
+    max-width: 542px;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 50px;
+  }
+  .sponser-image{
+    display: flex;
+    justify-content: center;
+    max-width: 1440px;
+    gap: 150px;
+    margin: 0 auto;
+    filter: grayscale(100);
   }
 
 @media screen and (min-width:576px) and (max-width:992px) {
@@ -211,6 +225,14 @@ main>section{
     justify-content: center;
     margin: auto;
   }
+  .sponser-image{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 500px;
+    gap: 50px;
+    margin: 0 auto;
+    filter: grayscale(100);
     
 }
 
