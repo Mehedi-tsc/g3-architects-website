@@ -34,9 +34,10 @@ main>section{
   margin-top: 130px;
 }
 .section-title{
-  font-size: 45;
+  font-size: 45px;
   font-weight: 700;
   color: #131313;
+  margin-bottom: 24px;
 }
 /* header-style */
 .navbar{
@@ -98,20 +99,119 @@ main>section{
   color: #727272;
   font-weight: 500;
 }
+.loving-feature{
+  gap: 3.25rem;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+.loving-feature-text h3{
+  border-left: 2px solid #FF900E;
+  padding-left: 21px;
+}
+
+.loving-feature-card{
+  background-color: #FFFFFF;
+  border-radius: 8px;
+  box-shadow:0px 4px 30px 0px rgba(0, 0, 0, 0.06);
+  max-width: 586px;
+  margin-top: 30px;
+  padding: 30px;
+}
+.loving-feature-card h4{
+  margin: 0px;
+  font-size: 20px;
+  font-weight: 600;
+  color: #131313;
+  margin-bottom: 10px;
+  
+}
+.loving-feature-card p{
+  margin: 0px;
+}
+.button-container{
+ margin-left: -50px;
+ margin-top: -90px;
+}
+.second-section button{
+  align-content: center;
+  margin: auto;
+}
+.third-section h3, .third-section p{
+  margin-left: 120px;
+  }
+  .facts-container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 100px;
+    max-width: 1330px;
+    margin: 100px 170px 0px 170px;
+    justify-content: center;
+    
+    
+   }
+  .fact{
+    border:1px solid #FF900E;
+    border-radius: 8px;
+    width: 240px;
+    height: 240px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  .fact h3{
+    margin: 0px;
+    color: #424242;
+    font-size: 45px;
+    font-weight: 600;
+  }
+  .fact h5{
+    font-size: 20px;
+    font-weight: 600;
+    color: #727272;
+  }
 
 @media screen and (min-width:576px) and (max-width:992px) {
   .first-section{
     flex-direction: column;
   .nav-item{margin-bottom: 20px;}
   }
+  .facts-container{
+    
+    grid-template-columns: repeat(2, 1fr);
+    
+    
+    
+   }
   
 }
 @media  screen and (max-width:576px) {
   .display-flex{
     flex-direction: column;
-  .nav-item{margin-bottom: 20px;}
-  }
+    }
+  .nav-item{
+    margin-bottom: 20px;}
   .team{
   grid-template-columns: repeat(1, 1fr);
-    margin: 0 auto;
+  margin: 0 auto;}
+.facts-container{
+    grid-template-columns: repeat(1, 1fr);
+    gap: 80px;
+    margin: 100px;
+    }
+    .third-section p{
+  margin-left: 90px;
+  }
+  .loving-feature-image img{
+    width: 90%;
+   margin: 0 auto;
+    
+  } 
+  .button-container{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+  }
+    
 }
+
+
